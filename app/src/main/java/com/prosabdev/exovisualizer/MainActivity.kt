@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
         visualizer.processor = fftAudioProcessor
 
         // Online radio:
-        val uri = Uri.parse("https://docs.google.com/uc?export=download&id=1Hp4IKZPs1uXiw1phPmZ2pZVYrURZ5F39")
+        // val uri = Uri.parse("https://docs.google.com/uc?export=download&id=1Hp4IKZPs1uXiw1phPmZ2pZVYrURZ5F39")
 //        val uri = Uri.parse("https://docs.google.com/uc?export=download&id=10D3K1QZzp33BONrHW6btzVIgT66eCwtn")
 //        val uri = Uri.parse("https://docs.google.com/uc?export=download&id=1x33kjWj8geqLadCFZ1G0hUW_4DDkqIzm")
 
@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity() {
         // 10 kHz test sound:
         // val uri = Uri.parse("https://www.mediacollege.com/audio/tone/files/10kHz_44100Hz_16bit_05sec.mp3")
         // Sweep from 20 to 20 kHz
-//        val uri = Uri.parse("https://www.churchsoundcheck.com/CSC_sweep_20-20k.wav")
+        val uri = Uri.parse("https://www.churchsoundcheck.com/CSC_sweep_20-20k.wav")
         val defaultHttpDataSourceFactory = DefaultHttpDataSource.Factory()
         defaultHttpDataSourceFactory.setUserAgent("ExoVisualizer")
 
