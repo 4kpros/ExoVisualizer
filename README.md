@@ -12,6 +12,6 @@ Comment l'utiliser ?
 - Lancer l'application (Vous aurez un graphique de frequences qui commencera lorsque le son commencera a jouer.)
 - Pour changer le clip, modifiez directement depuis le code
 
-A noter que cet audio monte dans les tres hautes frequences(ca peut vous rendre sourd). Vous voulez le fichier pour tester ? Voici le lien :  **(https://www.churchsoundcheck.com/CSC_sweep_20-20k.wav)**
+A noter que cet audio monte dans les tres hautes frequences(ca peut vous faire mal aux tympan). Vous voulez le fichier pour tester ? Voici le lien :  **(https://www.churchsoundcheck.com/CSC_sweep_20-20k.wav)**
 
 A noter que cette demo utilise le player **Exoplayer** au lieu du Mediaplayer par defaut
