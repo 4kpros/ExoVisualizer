@@ -10,8 +10,8 @@ Comment l'utiliser ?
 - Importer dans Android Studio et attendre la fin d'installation des dependances
 - Builder le projet
 - Lancer l'application (Vous aurez un graphique de frequences qui commencera lorsque le son commencera a jouer.)
-- Pour changer le clip, importez votre fichier audio(dans n'importe quel format dans le repertoire raw des ressources.
+- Pour changer le clip, modifiez directement depuis le code
 
-Dans mon cas c'est le fichier **sample_96khz_24bit.flac**. 
+A noter que cet audio monte dans les tres hautes frequences(ca peut vous rendre sourd). Vous voulez le fichier pour tester ? Voici le lien :  **[sample_96khz_24bit.flac](https://www.churchsoundcheck.com/CSC_sweep_20-20k.wav)**
 
 A noter que cette demo utilise le player **Exoplayer** au lieu du Mediaplayer par defaut
